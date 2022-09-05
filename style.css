@@ -1,12 +1,14 @@
 body {
   margin: 0px;
 }
+
 .container {
   height: 100vh;
   display: grid;
   grid-template-columns: 20vh 1fr;
   grid-template-rows: 13vh 1fr;
 }
+
 header {
   background-color: whitesmoke;
 }
