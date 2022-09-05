@@ -39,6 +39,10 @@ aside > .item {
   align-items: center;
 }
 
+aside svg {
+  fill: var(--white);
+}
+
 main {
   background-color: grey;
 }
