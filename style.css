@@ -1,3 +1,11 @@
+:root {
+  --pink: #ff69a5;
+  --hot-pink: #d13061;
+  --dark-blue: #4182a2;
+  --blue: #50c7b0;
+  --light-blue: #f2fcf3;
+}
+
 body {
   margin: 0px;
 }
