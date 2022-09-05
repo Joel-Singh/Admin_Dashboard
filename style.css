@@ -34,6 +34,11 @@ aside > h1 {
   margin: 0px;
 }
 
+aside > .item {
+  display: flex;
+  align-items: center;
+}
+
 main {
   background-color: grey;
 }
