@@ -25,17 +25,35 @@ aside {
   background-color: var(--dark-blue);
   grid-column: 1 / span 1;
   grid-row: 1 / -1;
+  padding: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 aside > h1 {
   font-size: 1.5em;
   margin: 0px;
+  margin-bottom: 40px;
+}
+
+aside > h1 > svg {
+  margin-right: 10px;
+}
+
+.item.settings {
+  margin-top: 20vh;
+}
+
+aside > .item:not(h1) > svg {
+  margin-right: 20px;
 }
 
 aside > .item {
   display: flex;
   align-items: center;
   color: var(--white);
+  font-weight: bold;
 }
 
 aside svg {
