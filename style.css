@@ -42,11 +42,11 @@ aside > h1 > svg {
 }
 
 .item.settings {
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 aside > .item:not(h1) > svg {
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 aside > .item {
