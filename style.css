@@ -41,6 +41,10 @@ aside > h1 > svg {
   margin-right: 10px;
 }
 
+.item:not(h1) > svg {
+  height: 35px;
+}
+
 .item.settings {
   margin-top: 10vh;
 }
