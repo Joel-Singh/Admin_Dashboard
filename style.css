@@ -35,6 +35,14 @@ header {
   height: 50%;
 }
 
+button.new {
+  margin-left: auto;
+}
+
+svg.notification {
+  margin-left: auto;
+}
+
 aside {
   background-color: var(--dark-blue);
   grid-column: 1 / span 1;
