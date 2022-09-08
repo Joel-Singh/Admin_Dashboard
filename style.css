@@ -33,6 +33,19 @@ header {
 .upper input[type="search"] {
   width: calc(25% + 30px);
   height: 50%;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--hot-pink);
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px;
+  color: white;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.upper input[type="search"]:focus {
+  opacity: 1;
 }
 
 button.new {
