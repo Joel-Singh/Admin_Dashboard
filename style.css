@@ -14,7 +14,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 40vh 1fr;
-  grid-template-rows: 13vh 1fr;
+  grid-template-rows: 19vh 1fr;
 }
 
 header {
