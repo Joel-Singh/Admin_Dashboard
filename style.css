@@ -22,6 +22,8 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  padding: 30px;
+  padding-top: 15px;
 }
 
 .upper,
