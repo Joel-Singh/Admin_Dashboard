@@ -32,7 +32,7 @@ header {
 }
 
 .upper input[type="search"] {
-  width: calc(25% + 30px);
+  width: calc(40% + 30px);
   height: 50%;
   border-radius: 30px;
   border: none;
