@@ -24,6 +24,11 @@ header {
   grid-template-rows: 1fr 1fr;
   padding: 30px;
   padding-top: 15px;
+  position: relative;
+  z-index: 10;
+  --blur: 15px;
+  box-shadow: 0 0 var(--blur) rgb(0 0 0 / 75%);
+  clip-path: inset(0px 0px calc(var(--blur) * -1) 0px);
 }
 
 .upper,
