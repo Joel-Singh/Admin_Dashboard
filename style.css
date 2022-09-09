@@ -109,4 +109,22 @@ aside svg {
 
 main {
   background-color: var(--hot-pink);
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  grid-template-rows: 55% 1fr;
+  grid-template-areas:
+    "projects announcements"
+    "projects trending";
+}
+
+.your-projects {
+  grid-area: projects;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
 }
