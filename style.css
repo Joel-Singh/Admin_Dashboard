@@ -125,6 +125,17 @@ main h1 {
 
 .your-projects {
   grid-area: projects;
+  display: grid;
+  grid-template: max-content repeat(3, 1fr) / 1fr 1fr;
+  gap: 20px;
+}
+
+.your-projects > h1 {
+  grid-column: 1 / -1;
+}
+
+.card {
+  background-color: var(--pink);
 }
 
 .announcements {
