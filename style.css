@@ -127,6 +127,9 @@ main h1 {
 
 .your-projects {
   grid-area: projects;
+}
+
+main > div {
   display: flex;
   flex-direction: column;
 }
@@ -145,6 +148,10 @@ main h1 {
   background-color: var(--pink);
   border-radius: 20px;
   box-shadow: 5px 5px 5px 0px rgb(34 34 34 / 32%);
+}
+
+.announcements > .card, .trending > .card {
+  flex: 1;
 }
 
 .announcements {
