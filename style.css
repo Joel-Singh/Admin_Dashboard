@@ -127,6 +127,8 @@ main h1 {
   grid-area: projects;
   padding: 20px;
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .your-projects > .card-container {
@@ -135,6 +137,7 @@ main h1 {
   gap: 20px;
   width: 100%;
   height: 100%;
+  flex: 1;
 }
 
 
