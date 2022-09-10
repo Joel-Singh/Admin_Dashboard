@@ -132,6 +132,8 @@ main h1 {
 
 .your-projects > h1 {
   grid-column: 1 / -1;
+  position: relative;
+  top: 15px;
 }
 
 .card {
