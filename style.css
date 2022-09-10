@@ -115,6 +115,8 @@ main {
   grid-template-areas:
     "projects announcements"
     "projects trending";
+  padding: 20px;
+  padding-top: 10px;
 }
 
 main h1 {
@@ -125,8 +127,6 @@ main h1 {
 
 .your-projects {
   grid-area: projects;
-  padding: 20px;
-  padding-top: 0px;
   display: flex;
   flex-direction: column;
 }
