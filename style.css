@@ -140,6 +140,8 @@ main h1 {
 
 .card {
   background-color: var(--pink);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0px rgb(34 34 34 / 32%);
 }
 
 .announcements {
