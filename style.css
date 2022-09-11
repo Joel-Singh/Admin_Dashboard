@@ -56,6 +56,12 @@ header {
   opacity: 1;
 }
 
+.upper svg,
+.lower svg {
+  height: 48px;
+  width: 48px;
+}
+
 button.new {
   margin-left: auto;
 }
@@ -74,25 +80,31 @@ aside {
   flex-direction: column;
 }
 
-aside > h1 {
+.aside-header {
   font-size: 1.5em;
   margin: 0px;
   margin-bottom: 40px;
 }
 
-aside > h1 > svg {
+.aside-header > svg {
   margin-right: 10px;
 }
 
-.item:not(h1) > svg {
+.item:not(.aside-header) > svg {
   height: 35px;
+  width: 35px;
+}
+
+.aside-header > svg {
+  height: 48px;
+  width: 48px;
 }
 
 .item.settings {
   margin-top: 10vh;
 }
 
-aside > .item:not(h1) > svg {
+aside > .item > svg {
   margin-right: 5px;
 }
 
@@ -145,14 +157,14 @@ main > div {
   flex: 1;
 }
 
-
 .card {
   background-color: var(--pink);
   border-radius: 20px;
   box-shadow: 5px 5px 5px 0px rgb(34 34 34 / 32%);
 }
 
-.announcements > .card, .trending > .card {
+.announcements > .card,
+.trending > .card {
   flex: 1;
 }
 
