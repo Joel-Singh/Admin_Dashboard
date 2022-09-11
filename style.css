@@ -13,7 +13,7 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 40vh 1fr;
+  grid-template-columns: max-content 1fr;
   grid-template-rows: 19vh 1fr;
 }
 
