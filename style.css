@@ -65,6 +65,20 @@ button.new {
   margin-left: auto;
 }
 
+.lower button {
+  width: 88px;
+  height: 36px;
+  border-radius: 88px;
+  border: none;
+  background-color: var(--blue);
+  outline: white;
+  outline-style: solid;
+  outline-width: 2px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 svg.notification {
   margin-left: auto;
 }
