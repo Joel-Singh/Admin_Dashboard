@@ -4,6 +4,8 @@
   --dark-blue: #4182a2;
   --blue: #50c7b0;
   --white: #f2fcf3;
+  font-weight: bold;
+  color: white;
 }
 
 body {
@@ -148,7 +150,6 @@ main {
 main h1 {
   font-size: 1em;
   margin: 0;
-  font-weight: normal;
   margin-bottom: 3px;
 }
 
