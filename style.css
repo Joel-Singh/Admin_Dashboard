@@ -115,7 +115,7 @@ aside > .item {
   font-weight: bold;
 }
 
-aside svg {
+svg {
   fill: var(--white);
 }
 
