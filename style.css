@@ -244,6 +244,14 @@ main > div {
   font-size: 0.83rem;
 }
 
+.line {
+  width: 80%;
+  height: 3px;
+  background-color: var(--candy-green);
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
 .trending {
   grid-area: trending;
 }
