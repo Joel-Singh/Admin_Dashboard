@@ -187,8 +187,8 @@ main > div {
   align-self: flex-end;
   margin-right: 30px;
   display: flex;
-  width: 80px;
-  height: 20px;
+  width: 132px;
+  height: 30px;
 }
 
 .card-container .card {
