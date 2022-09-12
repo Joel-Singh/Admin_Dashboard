@@ -192,6 +192,12 @@ main > div {
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color: var(--dark-blue);
+  border-width: 0px;
+  border-left-width: 8px;
 }
 
 .card-container .card p {
