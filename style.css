@@ -203,6 +203,7 @@ main > div {
   border-color: var(--dark-blue);
   border-width: 0px;
   border-left-width: 8px;
+  font-weight: normal;
 }
 
 .card-container .card p {
