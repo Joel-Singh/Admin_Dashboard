@@ -177,11 +177,9 @@ main > div {
   flex: 1;
 }
 
-
 .card-container svg {
   flex: 1;
 }
-
 
 .card-container .svg-container {
   margin-top: auto;
