@@ -205,10 +205,10 @@ main > div {
 }
 
 .card-container .card p {
- margin-block-start: 0px;
- margin-block-end: 0px;
- margin-right: 80px;
  font-size: 0.8em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-right: 80px;
 }
 
 .card-container h1 {
