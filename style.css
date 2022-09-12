@@ -17,6 +17,9 @@ body {
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-template-rows: 19vh 1fr;
+  grid-template-areas:
+    "aside header"
+    "aside main";
 }
 
 header {
@@ -30,6 +33,7 @@ header {
   --blur: 15px;
   box-shadow: 0 0 var(--blur) rgb(0 0 0 / 75%);
   clip-path: inset(0px 0px calc(var(--blur) * -1) 0px);
+  grid-area: header;
 }
 
 .upper,
@@ -93,6 +97,7 @@ aside {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
+  grid-area: aside;
 }
 
 .aside-header {
@@ -145,6 +150,7 @@ main {
   padding: 20px;
   padding-top: 10px;
   gap: 20px;
+  grid-area: main;
 }
 
 main h1 {
