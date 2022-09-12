@@ -229,6 +229,10 @@ main > div {
   flex: 1;
 }
 
+.announcements .card {
+  padding: 10px;
+}
+
 .announcements {
   grid-area: announcements;
 }
