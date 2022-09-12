@@ -237,6 +237,11 @@ main > div {
   margin-block-start: 0px;
   margin-block-end: 0px;
   font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.announcements h2 {
+  font-size: 0.83rem;
 }
 
 .trending {
