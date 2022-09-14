@@ -268,6 +268,9 @@ main > div {
   grid-area: trending;
 }
 
+.trending > .card {
+  padding: 10px;
+}
 
 .trending .person {
   display:flex;
