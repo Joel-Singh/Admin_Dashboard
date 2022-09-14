@@ -267,3 +267,8 @@ main > div {
 .trending {
   grid-area: trending;
 }
+
+.trending svg {
+  height: 50px;
+  width: 50px;
+}
