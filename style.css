@@ -154,7 +154,8 @@ main {
   grid-area: main;
 }
 
-main h1, .announcements h2 {
+main h1,
+.announcements h2 {
   font-size: 1em;
   margin: 0;
   margin-bottom: 3px;
@@ -273,7 +274,7 @@ main > div {
 }
 
 .trending .person {
-  display:flex;
+  display: flex;
 }
 
 .trending svg {
